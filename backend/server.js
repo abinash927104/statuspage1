@@ -14,7 +14,7 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 app.use(cors({
-  origin: 'http://localhost:3001', // Change this to the correct origin for your frontend
+  origin: 'https://statuspage1frontend1.vercel.app/', // Change this to the correct origin for your frontend
   credentials: true
 }));
 
