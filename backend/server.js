@@ -14,7 +14,7 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 app.use(cors({
-  origin: 'https://statuspage1frontend1.vercel.app/', // Change this to the correct origin for your frontend
+  origin: 'statuspagenew-git-main-abinash927104s-projects.vercel.app', // Change this to the correct origin for your frontend
   credentials: true
 }));
 
